@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "The Tests",
+      "setup": "curl -OO https://www.cis.gvsu.edu/~kurmasz/Autograder/{DLUnit.jar, IsPrimeTest_Strong.class}",
+      "run": "java -jar DLUnit.jar isPrime.jls IsPrimeTest_Strong.class",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
